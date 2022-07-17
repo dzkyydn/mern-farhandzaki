@@ -7,7 +7,9 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
 
-mongoose.connect("mongodb://localhost:27017/wartegin", {
+const PORT = process.env.PORT || 9002;
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/wartegin", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, () => {
@@ -78,6 +80,6 @@ app.post("/pesanan", (req, res)=> {
 }) 
 
 
-app.listen(9002,() => {
-    console.log("Server Running at port: 9002")
+app.listen(PORT,() => {
+    console.log("Server Running at port: ", PORT)
 })
