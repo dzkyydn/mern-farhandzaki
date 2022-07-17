@@ -1,0 +1,11 @@
+.App {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+}
+
+span {
+    color: #ff4a4a;
+}
