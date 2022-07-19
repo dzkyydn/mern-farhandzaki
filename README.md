@@ -10,7 +10,7 @@
 server -> backend (mongodb, nodejs)
 
 
---------------- client run ---------------
+--------------- client run ---------------  
 npm start
 
 --------------- server run ---------------
