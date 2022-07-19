@@ -5,6 +5,20 @@
   Develop by **Farhan Yuswa Biyanto** and **Muhammad Dzakiyyudin**.  
     
   This website was created to fulfill assignments in semester 4 of the final course web-based programming. Study Program broadband multimedia, Jakarta State Polytechnic in 2022  
+  
+  client -> frontend (react.js, express.js)
+server -> backend (mongodb, nodejs)
+
+
+--------------- client run ---------------
+npm start
+
+--------------- server run ---------------
+node server
+
+
+apabila port digunakan? silahkan delete/kill port menggunakan teknik berikut:
+https://stackoverflow.com/questions/39632667/how-do-i-kill-the-process-currently-using-a-port-on-localhost-in-windows
 
     
   > Pemrograman Berbasis Web,    
