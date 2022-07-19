@@ -17,7 +17,7 @@ npm start
 node server
 
 
-apabila port digunakan? silahkan delete/kill port menggunakan teknik berikut:
+apabila port digunakan? silahkan delete/kill port menggunakan teknik berikut:  
 https://stackoverflow.com/questions/39632667/how-do-i-kill-the-process-currently-using-a-port-on-localhost-in-windows
 
     
