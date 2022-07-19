@@ -2,12 +2,14 @@ import express from "express"
 import cors from "cors"
 import mongoose from "mongoose"
 
+//const path = require('./routes/api/items')
+
 const app = express()
 app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
 
-const PORT = process.env.PORT || 9002;
+//const port = process.env.PORT || 9002;
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/wartegin", {
     useNewUrlParser: true,
@@ -79,7 +81,19 @@ app.post("/pesanan", (req, res)=> {
     })
 }) 
 
+//app.use('/api/items', items);
 
-app.listen(PORT,() => {
-    console.log("Server Running at port: ", PORT)
+// Server static assets if in production
+if(process.env.NODE_ENV === 'production') {
+    //set static folder
+    app.use(express.static('client/build'));
+
+    app.get('*', (req, res) => {
+        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    })
+}
+
+app.listen(process.env.PORT || 9002, function() {
+    //console.log("Server Running at port: ", port)
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 })
