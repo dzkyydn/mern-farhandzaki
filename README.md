@@ -13,7 +13,7 @@ server -> backend (mongodb, nodejs)
 --------------- client run ---------------  
 npm start
 
---------------- server run ---------------
+--------------- server run ---------------  
 node server
 
 
