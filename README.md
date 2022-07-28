@@ -1,5 +1,5 @@
 # responsive_website-wartegin  
-![This is an image](![image](https://user-images.githubusercontent.com/72331153/181473234-3f87bf74-e80c-4648-ad28-d2628054d92f.png))  
+![This is an image](https://user-images.githubusercontent.com/72331153/181473234-3f87bf74-e80c-4648-ad28-d2628054d92f.png)  
 
   Copyright © 2022  
   Develop by **Farhan Yuswa Biyanto** and **Muhammad Dzakiyyudin**.  
