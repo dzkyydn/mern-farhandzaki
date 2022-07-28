@@ -1,4 +1,4 @@
-# responsive_website-wartegin  
+# mern_website-wartegin
 ![This is an image](https://user-images.githubusercontent.com/72331153/181473234-3f87bf74-e80c-4648-ad28-d2628054d92f.png)  
 
   Copyright © 2022  
